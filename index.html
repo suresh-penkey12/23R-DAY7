@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN FORM</title>
+    <style>
+      .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 30vh;
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">LOGIN FORM</h1>
+    <fieldset>
+      <legend>login form</legend>
+      <form align="center">
+        <label for="username">UserName:</label>
+        <input type="text" id="username" name="username" /><br /><br />
+        <label for="pswd">Password:</label>
+        <input type="text" id="pswd" name="username" /><br /><br />
+        <input type="submit" value="login" formaction="./homepage.html"/><br><br>
+        <input type="submit" value="create new account" formaction="./signupform.html"/>
+        <input type="submit" value="forget password" formaction="./passwordchaneform.html"/>
+      </form>
+    </fieldset>
+  </body>
+</html>
